@@ -17,9 +17,7 @@ using System.Drawing;
 
 public partial class cart : System.Web.UI.Page
 {
-    //RazorPay 
-    private const string _key = "rzp_live_XL0qcIunqqi42p"; //"rzp_test_9ktChaJqqOjpba"; //"rzp_live_XL0qcIunqqi42p";
-    private const string _secret = "J8AzKuwMiLZ3iMCcb9RZTQ3e"; //"Dlr0pWlsamAVSaFE4IujBo7H";//"J8AzKuwMiLZ3iMCcb9RZTQ3e";
+    
 
 
     //Variables
@@ -779,7 +777,7 @@ public partial class cart : System.Web.UI.Page
         //        Dictionary<string, string> paytmParams = new Dictionary<string, string>();
 
         //        /* Find your MID in your Paytm Dashboard at https://dashboard.paytm.com/next/apikeys */
-        //        paytmParams.Add("MID", "kYeQul94385220760309");
+        //        paytmParams.Add("MID", "");
 
         //        /* Find your WEBSITE in your Paytm Dashboard at https://dashboard.paytm.com/next/apikeys */
         //        paytmParams.Add("WEBSITE", "DEFAULT");
@@ -816,7 +814,7 @@ public partial class cart : System.Web.UI.Page
         //        * You can get Checksum DLL from https://developer.paytm.com/docs/checksum/
         //        * Find your Merchant Key in your Paytm Dashboard at https://dashboard.paytm.com/next/apikeys 
         //*/
-        //        string checksum = paytm.CheckSum.generateCheckSum("gSDV#ugYAeeA2Zu4", paytmParams);
+        //        string checksum = paytm.CheckSum.generateCheckSum("", paytmParams);
 
         //        /* for Staging */
         //        //string url = "https://securegw-stage.paytm.in/order/process";
