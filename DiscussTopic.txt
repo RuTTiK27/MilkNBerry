@@ -1,0 +1,4 @@
+﻿1>
+Mobile number - state - district(city) - pincode(city)
+Weather ask at registration time or at checkout time
+
